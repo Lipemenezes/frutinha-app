@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Frutinha</string>
+    <string name="login">Usuario</string>
+    <string name="password">Senha</string>
+    <string name="btn_login">Entrar</string>
+    <string name="new_user">Registrar</string>
+    <string name="email">Endereço de email</string>
+    <string name="first_name">Nome</string>
+    <string name="last_name">Sobrenome</string>
+    <string name="btn_register">Registrar</string>
+</resources>

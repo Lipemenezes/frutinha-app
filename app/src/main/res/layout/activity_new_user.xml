@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.felipe.frutinha.activities.NewUserActivity"
+    android:orientation="vertical"
+    android:background="@drawable/frutinha"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFF"
+        android:padding="10dp"
+        android:layout_marginTop="80dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/loginWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/login"
+                android:inputType="text"
+                android:textColor="#30a7cf"
+                android:textColorHint="#30a7cf"
+                android:textSize="16sp"
+                android:typeface="serif" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/passwordWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="#30a7cf"
+                android:textColorHint="#30a7cf"
+                android:textSize="16sp"
+                android:typeface="serif" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/emailWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textColor="#30a7cf"
+                android:textColorHint="#30a7cf"
+                android:textSize="16sp"
+                android:typeface="serif" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/firstNameWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName"
+                android:textColor="#30a7cf"
+                android:textColorHint="#30a7cf"
+                android:textSize="16sp"
+                android:typeface="serif" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/lastNameWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                android:textColor="#30a7cf"
+                android:textColorHint="#30a7cf"
+                android:textSize="16sp"
+                android:typeface="serif" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="btnRegister"
+            android:textColor="#FFF"
+            android:background="#fa860f"
+            android:text="@string/btn_register" />
+
+    </LinearLayout>
+
+</LinearLayout>
