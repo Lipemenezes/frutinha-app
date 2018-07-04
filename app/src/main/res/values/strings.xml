@@ -8,4 +8,6 @@
     <string name="first_name">Nome</string>
     <string name="last_name">Sobrenome</string>
     <string name="btn_register">Registrar</string>
+    <string name="notification_title">Frutinha</string>
+    <string name="notification_text">Seja bem vindo ao frutinha</string>
 </resources>

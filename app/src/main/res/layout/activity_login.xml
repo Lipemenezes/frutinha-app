@@ -32,7 +32,7 @@
                 android:layout_marginTop="5dp"
                 android:ems="11"
                 android:hint="@string/login"
-                android:inputType="number"
+                android:inputType="text"
                 android:textColor="#30a7cf"
                 android:textColorHint="#30a7cf"
                 android:textSize="16sp"
